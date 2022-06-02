@@ -1,0 +1,19 @@
+{
+  "name": "projekt-winda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatrycjaTok/projekt-winda.git"
+  },
+  "author": "Patrycja Tokarz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatrycjaTok/projekt-winda/issues"
+  },
+  "homepage": "https://github.com/PatrycjaTok/projekt-winda#readme"
+}
