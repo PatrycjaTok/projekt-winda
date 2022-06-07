@@ -36,9 +36,9 @@ class CreateQueueDirectionAndFrom {
     }; 
 }
 
-let changeShowInput = (elShow, val) =>{
-    elShow.setAttribute("value", `${val}`);
-};
+// let changeShowInput = (elShow, val) =>{
+//     elShow.setAttribute("value", `${val}`);
+// };
 
 confirmButton.addEventListener("click",(event: Event)=>{
     event.preventDefault();
