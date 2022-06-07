@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(224, 243, 237);
+}
+
 .hide{
     visibility: hidden;
     height: 0em;
@@ -6,4 +10,130 @@
 .visible{
     visibility: visible;
     height: auto;
+}
+
+#box2{
+    width:20px;
+    height:20px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.inputStatic{
+    border-radius: 8px;
+}
+
+.buttonStatic{
+    border-radius: 8px;
+    background-color: aquamarine;
+    transition-property: box-shadow, background-color;
+    transition-duration: 0.3s;
+}
+
+.buttonStatic:hover{
+    box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.801);
+}
+.buttonStatic:active{
+    background-color: rgb(94, 189, 157);
+}
+
+.inputNumber{
+    width: 45px;
+}
+
+#confirmButton{
+    background-color: green;
+    color: antiquewhite;
+    border: none;
+    height: 1.8em;
+    cursor: pointer;
+    transition-property: box-shadow, background-color;
+    transition-duration: 0.3s;
+}
+
+#confirmButton:hover{
+    box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.801);
+}
+
+#confirmButton:active{
+    background-color: rgb(7, 102, 7);
+}
+
+.buttonsElevators{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    transition-property: box-shadow;
+    transition-duration: 0.3s;
+}
+
+.buttonsElevators:hover{
+    box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.801);
+}
+
+.buttonsElevators:active{
+    box-shadow: 0 0.6em 0.6em rgb(0, 0, 0);
+}
+
+.div2ButtonsElevators{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonUp, .buttonDown{
+    border-radius: 5px;
+    margin-left: 5px;
+    width: 80px;
+    height: 30px;
+    border: solid black 2px;
+    transition-property: box-shadow, border-color;
+    transition-duration: 0.2s;
+}
+
+.buttonUp:hover, .buttonDown:hover{
+    border-color: rgb(34, 170, 194);
+}
+
+.buttonUp:active, .buttonDown:active{
+    box-shadow: 0 0.6em 0.6em rgb(0, 0, 0);
+}
+
+.buttonUp{
+    background-color: rgb(173, 216, 245);
+}
+
+.buttonDown{
+    background-color: rgb(104, 160, 197);
+}
+
+
+.div2Elevator{
+    display: flex;
+    flex-direction: row;
+}
+
+.divShowDing{
+    font-weight: bolder;
+    color: rgb(252, 164, 0);
+}
+
+.divStatusEl{
+    display: flex;
+    
+}
+
+#divStatus{
+    width:fit-content;
+}
+
+#statusValues{
+    margin-left: 10px;
+}
+
+.container{
+display: flex;
+justify-content: center;
+margin-top: 5vh;
 }
